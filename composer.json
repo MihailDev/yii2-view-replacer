@@ -15,6 +15,9 @@
     "config": {
         "process-timeout": 1800
     },
+    "autoload": {
+      "psr-4": { "mihaildev\\viewReplacer\\": "" }
+    },
     "extra": {
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
