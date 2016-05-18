@@ -1,0 +1,24 @@
+{
+    "name": "mihaildev/yii2-view-replacer",
+    "keywords": ["yii", "view", "replacer"],
+    "description": "Yii2 View Replacer",
+    "homepage": "https://github.com/MihailDev/yii2-view-replacer",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
